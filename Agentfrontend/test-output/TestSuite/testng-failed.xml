@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="sbrowser" value="Firefox"/>
+    <classes>
+      <class name="com.tcs.phptravels.scripts.Testclass1_ExcelSearchhotel">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyvalidlogin"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.tcs.phptravels.scripts.Testclass1_ExcelSearchhotel -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="sbrowser" value="chrome"/>
+    <classes>
+      <class name="com.tcs.phptravels.scripts.Testclass1_ExcelSearchhotel">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="verifyvalidlogin"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- com.tcs.phptravels.scripts.Testclass1_ExcelSearchhotel -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

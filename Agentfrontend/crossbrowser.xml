@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite"  >
+<test name="FirefoxTest">
+<parameter name="sbrowser" value="Firefox" />
+<classes>
+<class name="com.tcs.phptravels.scripts.Testclass1_ExcelSearchhotel">
+</class>
+</classes>
+</test>
+<test name="ChromeTest">
+<parameter name="sbrowser" value="chrome"/>
+
+<classes>
+<class name="com.tcs.phptravels.scripts.Testclass1_ExcelSearchhotel">
+</class>
+</classes>
+</test>
+</suite>
