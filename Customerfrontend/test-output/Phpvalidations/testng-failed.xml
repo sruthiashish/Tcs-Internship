@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Phpvalidations]">
+  <test thread-count="5" name="Tc_o1_Php(failed)">
+    <classes>
+      <class name="com.tcs.phptravels.scripts.SecondMainclass">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.tcs.phptravels.scripts.SecondMainclass -->
+    </classes>
+  </test> <!-- Tc_o1_Php(failed) -->
+</suite> <!-- Failed suite [Phpvalidations] -->

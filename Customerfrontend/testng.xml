@@ -1,0 +1,9 @@
+<suite name="Phpvalidations">
+<test name= "Tc_o1_Php">
+
+<classes>
+  	 <class name="com.tcs.phptravels.scripts.SecondMainclass"/>
+
+</classes>
+</test>
+</suite>

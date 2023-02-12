@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>teststeppass::Sucessfully validated the profile page</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>teststeppass::Sucessfully validated the logout page</br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-10T21:40:13 IST" name="Default suite" finished-at="2023-02-10T21:40:58 IST" duration-ms="45035">
+    <groups>
+    </groups>
+    <test started-at="2023-02-10T21:40:13 IST" name="Default test" finished-at="2023-02-10T21:40:58 IST" duration-ms="45035">
+      <class name="com.tcs.phptravels.scripts.Testclass1_Excelupdateaddress">
+        <test-method is-config="true" signature="onsetup()[pri:0, instance:com.tcs.phptravels.scripts.Testclass1_Excelupdateaddress@2928854b]" started-at="2023-02-10T21:40:13 IST" name="onsetup" finished-at="2023-02-10T21:40:27 IST" duration-ms="13954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onsetup -->
+        <test-method signature="verifyvalidlogin()[pri:0, instance:com.tcs.phptravels.scripts.Testclass1_Excelupdateaddress@2928854b]" started-at="2023-02-10T21:40:27 IST" name="verifyvalidlogin" finished-at="2023-02-10T21:40:57 IST" duration-ms="29993" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>teststeppass::Sucessfully validated the profile page</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>teststeppass::Sucessfully validated the logout page</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyvalidlogin -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:com.tcs.phptravels.scripts.Testclass1_Excelupdateaddress@2928854b]" started-at="2023-02-10T21:40:57 IST" name="exit" finished-at="2023-02-10T21:40:58 IST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.tcs.phptravels.scripts.Testclass1_Excelupdateaddress -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
